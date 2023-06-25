@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pagina2"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/botonderecha"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="10dp"
+            android:onClick="irAPaginaMain"
+            app:srcCompat="@drawable/botonatras" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Petgram"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="-101dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="315dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="55dp"
+            android:text="Top 5 - Perros 5 Paticas"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="109dp"
+            android:layout_height="129dp"
+            android:layout_marginTop="61dp"
+            android:radius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/perro33"
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="109dp"
+            android:layout_height="129dp"
+            android:layout_marginTop="61dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/perro31" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="109dp"
+            android:layout_height="129dp"
+            android:layout_marginTop="61dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/perro32" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="218dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/perro30" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="218dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/perro34" />
+
+        <Button
+            android:id="@+id/boton20"
+            android:layout_width="287dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="72dp"
+
+
+            android:endColor="#F3AFD7"
+            android:startColor="#F664BB"
+            android:text="Vota"
+            android:textColor="@color/white"
+
+            app:backgroundTint="#F664BB"
+            app:cornerRadius="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

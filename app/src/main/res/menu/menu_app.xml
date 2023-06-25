@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+         android:id="@+id/mAbout"
+         android:title="Sobre Nosotros"
+
+         android:orderInCategory="101"
+        android:icon="@drawable/hueso1"
+        app:showAsAction="withText"
+        >
+    </item>
+    <item
+        android:id="@+id/mConfig"
+        android:title="Configuraciones"
+        android:orderInCategory="102"
+        android:icon="@drawable/hueso1"
+        app:showAsAction="withText"
+        >
+    </item>
+    <item
+        android:id="@+id/mAdopta"
+        android:enabled="true"
+
+        android:icon="@drawable/hueso1"
+        android:orderInCategory="100"
+
+        android:title="Adopta en tu ciudad"
+        android:visible="true"
+        app:showAsAction="withText" />
+
+
+</menu>
